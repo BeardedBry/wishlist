@@ -25,7 +25,7 @@ export default async function Dashboard() {
     async function getAll() {
         // "use server"
         const allUsers = await prisma.user.findMany()
-        // console.log(allUsers)
+        console.log(allUsers)
         return allUsers;
     }
 

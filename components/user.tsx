@@ -1,4 +1,4 @@
-import { UserButton } from "@clerk/nextjs";
+import { UserButton, UserProfile } from "@clerk/nextjs";
 
 export const User = () => {
     return (
