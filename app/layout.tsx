@@ -20,7 +20,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${inter.className} text-gray-700`}>
-          <nav className='p-4 w-full bg-green-500 flex justify-between h-16'>
+          <nav className='p-4 w-full bg-purple-500 flex justify-between h-16'>
             <h1>Wish List</h1>
             <div className='float-right'>
               <User />
