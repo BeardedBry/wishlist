@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <p className='my-3 text-4xl text-center font-semibold'>
+      <p className='my-3 text-4xl text-center font-semibold max-w-lg'>
       Wish List is a simple app that lets you create a wish list for the holidays.
       </p>
       <div className='my-4'>
